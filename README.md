@@ -17,6 +17,8 @@ base class has the following features.
 
 ![ActiveRecordLite Setup](images/ar_setup.png)
 
+Figure 1: How to set up ActiveRecord Lite
+
 * **Searchable**: Searchable is a module added to the SQLObject class to allow
 searching based on a specific attribute value.
   * `#where` returns an array of the records that match the given condition.
@@ -31,3 +33,5 @@ associations include the following.
   * `has_one_through`
 
 ![ActiveRecordLite Associations](images/ar_associations.png)
+
+Figure 2: Associations example
