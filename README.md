@@ -15,6 +15,8 @@ base class has the following features.
   * `#save` method that calls either insert or update depending on whether or
   not the SQLObject already exists in the table (based on presence of id)
 
+![ActiveRecordLite Setup](images/ar_setup.png)
+
 * **Searchable**: Searchable is a module added to the SQLObject class to allow
 searching based on a specific attribute value.
   * `#where` returns an array of the records that match the given condition.
@@ -27,3 +29,5 @@ associations include the following.
   * `belongs_to`
   * `has_many`
   * `has_one_through`
+
+![ActiveRecordLite Associations](images/ar_associations.png)
